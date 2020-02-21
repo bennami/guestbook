@@ -1,11 +1,9 @@
-<?php 
+<?php
+ini_set('display_errors', "1");
+ini_set('display_startup_errors', "1");
+error_reporting(E_ALL);
 require 'guestbook.php';
-require 'post.php';
-require 'entries.json';
-echo'guestbook';
-
-
-
+//require 'entries.json';
 
 ?>
 <!doctype html>
@@ -28,11 +26,13 @@ echo'guestbook';
     <input type="text" name="Title"><br><br>
 
     <label>Content</label>
-    <input type="text" name="content"><br>
+    <input type="text" name="Content"><br>
 
     <label>Guest Name</label>
-    <input type="text" name="guestName"><br><br>
+    <input type="text" name="GuestName"><br><br>
     <input type="submit" name="submit" value="Submit">
 </form>
+
+<div><?php  ?></div>
 </body>
 </html>
