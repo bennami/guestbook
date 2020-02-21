@@ -6,17 +6,17 @@ error_reporting(E_ALL);
 require 'post.php';
 class Guestbook extends Post
 {
-    public $entry;
+    private $entry;
 
 
     function __construct()
     {
      parent::__construct();
-        $this->entry = new Post();
+     $this->entry = new Post();
     }
 
    public function getObjectInJson($entry){
-        file_put_contents('entries.json',$entry, FILE_APPEND);
+        file_put_contents('entries.json',$entry);
         echo 'done';
     }
 
@@ -29,7 +29,9 @@ var_dump($entryInfo);
 if(isset($entryUser)){
     //json_decode('entries.json');
    $entryForJson = json_encode($entryInfo);
-   var_dump($entryForJson);
-    //$entryUser->getObjectInJson($entryyy);
+    $object = json_decode(json_encode($entryForJson), FALSE);
+
+   var_dump($object);
+    $entryUser->getObjectInJson($object);
 }
 

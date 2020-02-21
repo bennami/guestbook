@@ -5,11 +5,11 @@ error_reporting(E_ALL);
 
 
 class Post{
-    Public $Date;
-    Public $Title;
-    Public $Content;
-    Public $GuestName;
-    Public $getAll= array();
+    Private $Date;
+    Private $Title;
+    Private $Content;
+    Private $GuestName;
+    Private $getAll= Array();
 
 
     function __construct()
@@ -19,28 +19,10 @@ class Post{
             $this->Content = $_POST['Content'];
             $this->GuestName = $_POST['GuestName'];
     }
-
- /*   public function getDate()
-    {
-        return $this->Date;
-    }
-
-    public function getGuestName(){
-        return $this->GuestName;
-    }
-
-    public function getTitle()
-    { return $this->Title;
-    }
-
-    public function getContent()
-    {
-        return $this->Content;
-    }*/
-
+    
     public function getAllInfo(){
-        array_push($this->getAll,  $this->Date,  $this->Title, $this->Content,  $this->GuestName);
-        return $this->getAll;
+      $this->getAll = [ 'Date'=>$this->Date, 'Title'=> $this->Title, 'Content'=>$this->Content, 'Guest Name'=>$this->GuestName];
+      return $this->getAll;
     }
 
 }
