@@ -12,14 +12,14 @@ class Post{
     Private $getAll= Array();
 
 
-    function __construct()
+    function __construct($date,$title,$content,$name)
     {
-            $this->Date = $_POST['Date'];
-            $this->Title = $_POST['Title'];
-            $this->Content = $_POST['Content'];
-            $this->GuestName = $_POST['GuestName'];
+            $this->Date = $date;
+            $this->Title = $title;
+            $this->Content = $content;
+            $this->GuestName = $name;
     }
-    
+
     public function getAllInfo(){
       $this->getAll = [ 'Date'=>$this->Date, 'Title'=> $this->Title, 'Content'=>$this->Content, 'Guest Name'=>$this->GuestName];
       return $this->getAll;

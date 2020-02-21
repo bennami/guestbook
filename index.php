@@ -33,6 +33,6 @@ require 'guestbook.php';
     <input type="submit" name="submit" value="Submit">
 </form>
 
-<div><?php  ?></div>
+<div><?php ?></div>
 </body>
 </html>
