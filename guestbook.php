@@ -4,12 +4,14 @@ ini_set('display_startup_errors', "1");
 
 error_reporting(E_ALL);
 require 'post.php';
-class Guestbook
+class Guestbook extends Post
 {
     public $entry;
 
+
     function __construct()
     {
+     parent::__construct();
         $this->entry = new Post();
     }
 
@@ -20,11 +22,14 @@ class Guestbook
 
 }
 
-$entryUser = new guestbook();
+$entryUser = new Guestbook();
+$entryInfo = $entryUser->getAllInfo();
+var_dump($entryInfo);
+
 if(isset($entryUser)){
     //json_decode('entries.json');
-   $entryyy = json_encode($entryUser);
-   var_dump($entryyy);
-    $entryUser->getObjectInJson($entryyy);
+   $entryForJson = json_encode($entryInfo);
+   var_dump($entryForJson);
+    //$entryUser->getObjectInJson($entryyy);
 }
 
