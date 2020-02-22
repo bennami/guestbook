@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fadf7711-9900-4b79-a000-9f4b42fdceaa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JSON/entries.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/View/homepage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entries.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guestbook.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guestbook.php" beforeDir="false" afterPath="$PROJECT_DIR$/Model/guestbook.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/post.php" beforeDir="false" afterPath="$PROJECT_DIR$/Model/post.php" afterDir="false" />
-    </list>
+    <list default="true" id="fadf7711-9900-4b79-a000-9f4b42fdceaa" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
