@@ -3,8 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="fadf7711-9900-4b79-a000-9f4b42fdceaa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/controller.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JSON/entries.json" beforeDir="false" afterPath="$PROJECT_DIR$/JSON/entries.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Model/guestbook.php" beforeDir="false" afterPath="$PROJECT_DIR$/Model/guestbook.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/post.php" beforeDir="false" afterPath="$PROJECT_DIR$/Model/post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +165,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="php-line-method">
           <url>file://$PROJECT_DIR$/Model/post.php</url>
-          <line>24</line>
+          <line>37</line>
           <properties>
             <option name="className" value="\Post" />
             <option name="methodName" value="getAllInfo" />
@@ -176,8 +179,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/Model/guestbook.php</url>
-          <line>32</line>
+          <line>42</line>
           <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Model/guestbook.php</url>
+          <line>19</line>
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

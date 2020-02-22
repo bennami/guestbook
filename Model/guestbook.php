@@ -6,18 +6,28 @@ error_reporting(E_ALL);
 require 'Model/post.php';
 class GuestBook extends Post
 {
-    //entry is object of post, the json is json file, all posts is where i put the user input to add to json
+    //entry is object of post, all posts the array of json and
     private $entry;
-
     private $allPosts=[];
-
 
     function __construct()
     {
-     parent::__construct();
-     $this->entry = new Post();
+        parent::__construct($_POST['Date'],$_POST['Title'],$_POST['Content'],$_POST['GuestName']);
+
     }
 
+    function setEntry()
+    {
+        $this->entry = new Post($_POST['Date'],$_POST['Title'],$_POST['Content'],$_POST['GuestName']);
+        return $this->entry;
+    }
+
+    function makeObject(){
+        $object=$this->setEntry();
+        $object= [ 'Date'=>$object->getDate(), 'Title'=> $object->getTitle(), 'Content'=>$object->getContent(), 'Guest Name'=>$object->getName()];
+        $this->entry = $object;
+        return $this->entry;
+    }
     //get json, decode it and put it in property
     public function getJson(){
         $current_data = file_get_contents('JSON/entries.json');
@@ -30,7 +40,7 @@ class GuestBook extends Post
 
     //push object u get from user into entry to add in json
     public function pushInArray(){
-    array_push($this->allPosts, $this->entry->getAllInfo());
+    array_push($this->allPosts, $this->makeObject());
     file_put_contents('JSON/entries.json', json_encode($this->allPosts, JSON_PRETTY_PRINT));
     return $this->allPosts;
 
@@ -39,13 +49,7 @@ class GuestBook extends Post
 
 }
 
-$newObject = new GuestBook();
-$entryInfo = $newObject->getAllInfo();
-var_dump($entryInfo);
-$json = $newObject->getJson();
-var_dump($json);
-$entireThing = $newObject->pushInArray();
-var_dump($entireThing);
+
 
 
 

@@ -1,10 +1,19 @@
 <?php
 require 'Model/guestbook.php';
-require 'Model/post.php';
+$newObject = new GuestBook();
+$entryInfo = $newObject->setEntry();
+//var_dump($entryInfo);
+$json = $newObject->getJson();
+//var_dump($json);
+$entireThing = $newObject->pushInArray();
+//var_dump($entireThing);
 
 class controller
 {
+function render(){
 
+
+}
 
 
 

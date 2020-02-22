@@ -2,7 +2,7 @@
 ini_set('display_errors', "1");
 ini_set('display_startup_errors', "1");
 error_reporting(E_ALL);
-require 'Model/guestbook.php';
+require 'View/homepage.php';
 //require 'entries.json';
 
 ?>
@@ -16,6 +16,8 @@ require 'Model/guestbook.php';
     <title>Guestbook</title>
 </head>
 <body>
+<h1>GUESTBOOK</h1>
+<h2>Leave us a lovely comment</h2>
 <form action=""  method="post">
 
 
@@ -32,7 +34,13 @@ require 'Model/guestbook.php';
     <input type="text" name="GuestName"><br><br>
     <input type="submit" name="submit" value="Submit">
 </form>
-
-<div><?php ?></div>
+<h1> Our lovely clients</h1>
+<div>
+    <?php foreach ($entireThing as $object){
+        echo '<hr> Date: '.$object['Date'].'<br>';
+        echo 'Title: '. $object['Title'].'<br>';
+        echo 'Content: '. $object['Content'].'<br>';
+        echo 'Name of Guest: '. $object['Guest Name'].'<br>'.'<br><hr>';
+    } ?></div>
 </body>
 </html>
