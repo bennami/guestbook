@@ -8,7 +8,7 @@ class GuestBook extends Post
 {
     //entry is object of post, the json is json file, all posts is where i put the user input to add to json
     private $entry;
-    private $theJson;
+
     private $allPosts=[];
 
 
@@ -39,12 +39,14 @@ class GuestBook extends Post
 
 }
 
-$entryUser = new GuestBook();
-$entryInfo = $entryUser->getAllInfo();
-$entryUser->getJson();
-$entireThing = $entryUser->pushInArray();
+$newObject = new GuestBook();
+$entryInfo = $newObject->getAllInfo();
+var_dump($entryInfo);
+$json = $newObject->getJson();
+var_dump($json);
+$entireThing = $newObject->pushInArray();
 var_dump($entireThing);
-var_dump($entryUser->getJson());
+
 
 
 

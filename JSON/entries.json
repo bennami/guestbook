@@ -1,84 +1,80 @@
-{
-    "Date": "jvhcg",
-    "Title": "lkhjhv",
-    "Content": "jihugyf",
-    "Guest Name": "joilhugk",
-    "0": {
+[
+    {
         "Date": "fesd",
         "Title": "saxz",
         "Content": "wdsxz",
         "Guest Name": "dwsxz"
     },
-    "1": {
+    {
         "Date": "helo",
         "Title": "how",
-        "Content": "aer",
+        "Content": "are",
         "Guest Name": "you"
     },
-    "2": {
+    {
         "Date": "hahah",
         "Title": "hahah",
         "Content": "hahah",
         "Guest Name": "haha"
     },
-    "3": {
+    {
         "Date": "lol",
         "Title": "it ",
         "Content": "is ",
         "Guest Name": "working"
     },
-    "4": {
-        "Date": null,
-        "Title": null,
-        "Content": null,
-        "Guest Name": null
+    {
+        "Date": "hh",
+        "Title": "",
+        "Content": "hh",
+        "Guest Name": ""
     },
-    "5": {
-        "Date": "hellp",
-        "Title": "this is cool",
-        "Content": "lolo",
-        "Guest Name": "no session needed"
+    {
+        "Date": "hh",
+        "Title": "hhh",
+        "Content": "hhhh",
+        "Guest Name": "hhhh"
     },
-    "6": {
-        "Date": "no sessioon",
-        "Title": "jhsdbvchj",
-        "Content": "fewhbsdjcknalzx",
-        "Guest Name": "hvjbsdckn"
+    {
+        "Date": "hh",
+        "Title": "hhh",
+        "Content": "hhhh",
+        "Guest Name": "hhhh"
     },
-    "7": {
-        "Date": null,
-        "Title": null,
-        "Content": null,
-        "Guest Name": null
+    {
+        "Date": "hey",
+        "Title": "hey",
+        "Content": "hey",
+        "Guest Name": "hey"
     },
-    "8": {
-        "Date": "friday",
-        "Title": "the",
-        "Content": "qwdas",
-        "Guest Name": "weadscz"
+    {
+        "Date": "hey",
+        "Title": "hey",
+        "Content": "hey",
+        "Guest Name": "hey"
     },
-    "9": {
-        "Date": null,
-        "Title": null,
-        "Content": null,
-        "Guest Name": null
+    {
+        "Date": "hey",
+        "Title": "hey",
+        "Content": "hey",
+        "Guest Name": "hey"
     },
-    "10": {
-        "Date": "hello",
-        "Title": "hello",
-        "Content": "hello",
-        "Guest Name": "hello"
+    {
+        "Date": "hi",
+        "Title": "hi",
+        "Content": "hi",
+        "Guest Name": "hi"
     },
-    "11": {
-        "Date": "is work?",
-        "Title": "is work",
-        "Content": "yay",
-        "Guest Name": "yay"
+    {
+        "Date": "hi",
+        "Title": "hi",
+        "Content": "hi",
+        "Guest Name": "hi"
     },
-    "12": {
-        "Date": "friday",
-        "Title": "on load",
-        "Content": "i get an empty array",
-        "Guest Name": "need to fix"
+    {
+        "Date": "oo",
+        "Title": "oo",
+        "Content": "hh",
+        "Guest Name": "wiee"
     }
-}
+]
