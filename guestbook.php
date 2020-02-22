@@ -14,20 +14,16 @@ class GuestBook extends Post
 
     function __construct()
     {
-     parent::__construct($date,$title,$content,$name);
-     $this->entry = new Post($date,$title,$content,$name);
+     parent::__construct();
+     $this->entry = new Post();
     }
 
     //get json, decode it and put it in property
     public function getJson(){
         $current_data = file_get_contents('entries.json');
         $data_json = json_decode($current_data);
-        foreach ($data_json as $toPost)
-        {
-            $post = new Post($toPost->Date,$toPost->Title, $toPost->Content, $toPost->GuestName);
-            array_push($this->allPosts, $post);
-        }
-        $this->allPosts = $data_json;
+
+        $this->allPosts = json_decode(json_encode($data_json), True);
         return $this->allPosts;
     }
 
@@ -43,9 +39,9 @@ class GuestBook extends Post
 }
 
 $entryUser = new GuestBook();
-$entryInfo = $entryUser->getAllInfo($_POST['Date'],$_POST['Title'],$_POST['Content'],$_POST['GuestName']);
+$entryInfo = $entryUser->getAllInfo();
 $entryUser->getJson();
-$entireThing = $entryUser->pushInArray();
+$entireThing = $entryUser->pushInArray($entryUser->getJson());
 var_dump($entireThing);
 var_dump($entryUser->getJson());
 
