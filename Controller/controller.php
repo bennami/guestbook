@@ -7,7 +7,7 @@ $json = $newObject->getJson();
 //var_dump($json);
 $entireThing = $newObject->pushInArray();
 //var_dump($entireThing);
-
+$arrReverse= array_reverse($entireThing);
 class controller
 {
 function render(){

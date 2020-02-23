@@ -36,7 +36,9 @@ require 'View/homepage.php';
 </form>
 <h1> Our lovely clients</h1>
 <div>
-    <?php foreach ($entireThing as $object){
+    <?php
+
+    foreach ($arrReverse as $object){
         echo '<hr> Date: '.$object['Date'].'<br>';
         echo 'Title: '. $object['Title'].'<br>';
         echo 'Content: '. $object['Content'].'<br>';
