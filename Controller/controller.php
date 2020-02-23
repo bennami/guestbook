@@ -25,10 +25,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 class controller
 {
-function render(){
+    function render(){
 
 
-}
+    }
 
 
 

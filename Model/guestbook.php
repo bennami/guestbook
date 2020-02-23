@@ -30,16 +30,9 @@ class GuestBook
 
     //push object u get from user into entry to add in json
     public function pushInArray(){
-    array_push($this->allPosts, $this->makeAssoc());
-    file_put_contents('JSON/entries.json', json_encode($this->allPosts, JSON_PRETTY_PRINT));
-    return $this->allPosts;
+        array_push($this->allPosts, $this->makeAssoc());
+        file_put_contents('JSON/entries.json', json_encode($this->allPosts, JSON_PRETTY_PRINT));
+        return $this->allPosts;
     }
 
 }
-
-
-
-
-
-
-

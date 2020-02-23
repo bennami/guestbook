@@ -33,7 +33,7 @@ require 'View/homepage.php';
 <h1> Our lovely clients</h1>
 <div>
     <?php
-    if(isset($arrReverse)){
+    if(isset($_POST)){
     foreach ($arrReverse as $object){
         echo '<hr> Date: '.$object['Date'].'<br>';
         echo 'Title: '. $object['Title'].'<br>';
