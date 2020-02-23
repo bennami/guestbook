@@ -1,7 +1,6 @@
 <?php
 
 require 'View/homepage.php';
-//require 'entries.json';
 
 ?>
 <!doctype html>
@@ -17,7 +16,6 @@ require 'View/homepage.php';
 <h1>GUESTBOOK</h1>
 <h2>Leave us a lovely comment</h2>
 <form action=""  method="post">
-
 
     <label >Date</label>
     <input type="text" name="Date"><br><br>
@@ -35,14 +33,14 @@ require 'View/homepage.php';
 <h1> Our lovely clients</h1>
 <div>
     <?php
-if(isset($_POST)){
+    if(isset($arrReverse)){
     foreach ($arrReverse as $object){
         echo '<hr> Date: '.$object['Date'].'<br>';
         echo 'Title: '. $object['Title'].'<br>';
         echo 'Content: '. $object['Content'].'<br>';
         echo 'Name of Guest: '. $object['Guest Name'].'<br>'.'<br><hr>';
+        }
     }
-}
      ?></div>
 </body>
 </html>

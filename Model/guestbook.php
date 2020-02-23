@@ -7,14 +7,14 @@ class GuestBook
     private $allPosts=[];
 
     function setEntry(){
-        $this->entry = new Post($_POST['Date'],$_POST['Title'],$_POST['Content'],$_POST['GuestName']);
+        $this->entry = new Post(htmlspecialchars($_POST['Date']),htmlspecialchars($_POST['Title']),htmlspecialchars($_POST['Content']),htmlspecialchars($_POST['GuestName']));
         return $this->entry;
     }
 
-    function makeObject(){
-        $object = $this->setEntry();
-        $object = [ 'Date'=>$object->getDate(), 'Title'=> $object->getTitle(), 'Content'=>$object->getContent(), 'Guest Name'=>$object->getName()];
-        $this->entry = $object;
+    function makeAssoc(){
+        $assocArray = $this->setEntry();
+        $assocArray = [ 'Date'=>$assocArray->getDate(), 'Title'=> $assocArray->getTitle(), 'Content'=>$assocArray->getContent(), 'Guest Name'=>$assocArray->getName()];
+        $this->entry = $assocArray;
         return $this->entry;
     }
 
@@ -30,7 +30,7 @@ class GuestBook
 
     //push object u get from user into entry to add in json
     public function pushInArray(){
-    array_push($this->allPosts, $this->makeObject());
+    array_push($this->allPosts, $this->makeAssoc());
     file_put_contents('JSON/entries.json', json_encode($this->allPosts, JSON_PRETTY_PRINT));
     return $this->allPosts;
     }

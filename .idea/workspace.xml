@@ -6,7 +6,6 @@
       <change beforePath="$PROJECT_DIR$/Controller/controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/controller.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JSON/entries.json" beforeDir="false" afterPath="$PROJECT_DIR$/JSON/entries.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Model/guestbook.php" beforeDir="false" afterPath="$PROJECT_DIR$/Model/guestbook.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/post.php" beforeDir="false" afterPath="$PROJECT_DIR$/Model/post.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,58 +92,58 @@
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state width="476" height="466" key="DebuggerActiveHint/0.23.1440.822@0.23.1440.822" timestamp="1582278084964" />
-    <state width="1398" height="263" key="GridCell.Tab.0.bottom" timestamp="1582401287737">
+    <state width="1398" height="263" key="GridCell.Tab.0.bottom" timestamp="1582474268849">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state width="1398" height="263" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1582401287737" />
-    <state width="1398" height="263" key="GridCell.Tab.0.center" timestamp="1582401287736">
+    <state width="1398" height="263" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1582474268849" />
+    <state width="1398" height="263" key="GridCell.Tab.0.center" timestamp="1582474268848">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state width="1398" height="263" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1582401287736" />
-    <state width="1398" height="263" key="GridCell.Tab.0.left" timestamp="1582401287736">
+    <state width="1398" height="263" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1582474268848" />
+    <state width="1398" height="263" key="GridCell.Tab.0.left" timestamp="1582474268848">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state width="1398" height="263" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1582401287736" />
-    <state width="1398" height="263" key="GridCell.Tab.0.right" timestamp="1582401287737">
+    <state width="1398" height="263" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1582474268848" />
+    <state width="1398" height="263" key="GridCell.Tab.0.right" timestamp="1582474268849">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state width="1398" height="263" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1582401287737" />
-    <state width="1398" height="263" key="GridCell.Tab.1.bottom" timestamp="1582401287646">
+    <state width="1398" height="263" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1582474268849" />
+    <state width="1398" height="263" key="GridCell.Tab.1.bottom" timestamp="1582474268770">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state width="1398" height="263" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582401263527" />
-    <state width="1398" height="263" key="GridCell.Tab.1.bottom/0.23.1440.822@0.23.1440.822" timestamp="1582401287646" />
-    <state width="1398" height="263" key="GridCell.Tab.1.center" timestamp="1582401287645">
+    <state width="1398" height="263" key="GridCell.Tab.1.bottom/0.23.1440.822@0.23.1440.822" timestamp="1582474268770" />
+    <state width="1398" height="263" key="GridCell.Tab.1.center" timestamp="1582474268769">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state width="1398" height="263" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1582401263526" />
-    <state width="1398" height="263" key="GridCell.Tab.1.center/0.23.1440.822@0.23.1440.822" timestamp="1582401287645" />
-    <state width="1398" height="263" key="GridCell.Tab.1.left" timestamp="1582401287645">
+    <state width="1398" height="263" key="GridCell.Tab.1.center/0.23.1440.822@0.23.1440.822" timestamp="1582474268769" />
+    <state width="1398" height="263" key="GridCell.Tab.1.left" timestamp="1582474268769">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state width="1398" height="263" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1582401263526" />
-    <state width="1398" height="263" key="GridCell.Tab.1.left/0.23.1440.822@0.23.1440.822" timestamp="1582401287645" />
-    <state width="1398" height="263" key="GridCell.Tab.1.right" timestamp="1582401287645">
+    <state width="1398" height="263" key="GridCell.Tab.1.left/0.23.1440.822@0.23.1440.822" timestamp="1582474268769" />
+    <state width="1398" height="263" key="GridCell.Tab.1.right" timestamp="1582474268770">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state width="1398" height="263" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1582401263527" />
-    <state width="1398" height="263" key="GridCell.Tab.1.right/0.23.1440.822@0.23.1440.822" timestamp="1582401287645" />
-    <state width="1398" height="263" key="GridCell.Tab.2.bottom" timestamp="1582401287647">
+    <state width="1398" height="263" key="GridCell.Tab.1.right/0.23.1440.822@0.23.1440.822" timestamp="1582474268770" />
+    <state width="1398" height="263" key="GridCell.Tab.2.bottom" timestamp="1582474268771">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state width="1398" height="263" key="GridCell.Tab.2.bottom/0.23.1440.822@0.23.1440.822" timestamp="1582401287647" />
-    <state width="1398" height="263" key="GridCell.Tab.2.center" timestamp="1582401287646">
+    <state width="1398" height="263" key="GridCell.Tab.2.bottom/0.23.1440.822@0.23.1440.822" timestamp="1582474268771" />
+    <state width="1398" height="263" key="GridCell.Tab.2.center" timestamp="1582474268771">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state width="1398" height="263" key="GridCell.Tab.2.center/0.23.1440.822@0.23.1440.822" timestamp="1582401287646" />
-    <state width="1398" height="263" key="GridCell.Tab.2.left" timestamp="1582401287646">
+    <state width="1398" height="263" key="GridCell.Tab.2.center/0.23.1440.822@0.23.1440.822" timestamp="1582474268771" />
+    <state width="1398" height="263" key="GridCell.Tab.2.left" timestamp="1582474268770">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state width="1398" height="263" key="GridCell.Tab.2.left/0.23.1440.822@0.23.1440.822" timestamp="1582401287646" />
-    <state width="1398" height="263" key="GridCell.Tab.2.right" timestamp="1582401287647">
+    <state width="1398" height="263" key="GridCell.Tab.2.left/0.23.1440.822@0.23.1440.822" timestamp="1582474268770" />
+    <state width="1398" height="263" key="GridCell.Tab.2.right" timestamp="1582474268771">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state width="1398" height="263" key="GridCell.Tab.2.right/0.23.1440.822@0.23.1440.822" timestamp="1582401287647" />
+    <state width="1398" height="263" key="GridCell.Tab.2.right/0.23.1440.822@0.23.1440.822" timestamp="1582474268771" />
     <state x="867" y="136" key="NewPhpClassDialog" timestamp="1582387273148">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
@@ -163,34 +162,30 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="php-line-method">
-          <url>file://$PROJECT_DIR$/Model/post.php</url>
-          <line>36</line>
-          <properties>
-            <option name="className" value="\Post" />
-            <option name="methodName" value="getAllInfo" />
-          </properties>
-          <option name="timeStamp" value="12" />
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Controller/controller.php</url>
+          <line>6</line>
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/Model/post.php</url>
-          <line>9</line>
-          <option name="timeStamp" value="16" />
+          <url>file://$PROJECT_DIR$/Controller/controller.php</url>
+          <line>8</line>
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/Model/guestbook.php</url>
-          <line>35</line>
-          <option name="timeStamp" value="24" />
+          <url>file://$PROJECT_DIR$/Controller/controller.php</url>
+          <line>11</line>
+          <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/Model/guestbook.php</url>
-          <line>12</line>
-          <option name="timeStamp" value="30" />
+          <url>file://$PROJECT_DIR$/Controller/controller.php</url>
+          <line>14</line>
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/Model/guestbook.php</url>
-          <line>13</line>
-          <option name="timeStamp" value="31" />
+          <url>file://$PROJECT_DIR$/Controller/controller.php</url>
+          <line>17</line>
+          <option name="timeStamp" value="37" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

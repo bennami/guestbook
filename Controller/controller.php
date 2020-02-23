@@ -1,16 +1,26 @@
 <?php
 require 'Model/guestbook.php';
 
-if(isset($_POST['submit'])){
-    $newObject = new GuestBook();
-    $entryInfo = $newObject->setEntry();
-//var_dump($entryInfo);
-    $json = $newObject->getJson();
-//var_dump($json);
-    $entireThing = $newObject->pushInArray();
-//var_dump($entireThing);
-    $arrReverse= array_reverse($entireThing);
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
+    //once the user submits
+    if(isset($_POST['submit'])){
+        //create new object, this will be empty,
+        $newObject = new GuestBook();
+
+        //this function converts json into std class and then into array
+        $json = $newObject->getJson();
+
+        //this function will set the entry with the info of $_POST
+        $entryInfo = $newObject->setEntry();
+
+        //this function pushes array of json and entry user into array, inside i use $this->makeObject to make an
+        $entireThing = $newObject->pushInArray();
+
+    }
+
+    //reverse array to show last entries first
+    $arrReverse= array_reverse($entireThing);
 }
 
 class controller
