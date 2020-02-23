@@ -1,7 +1,5 @@
 <?php
-ini_set('display_errors', "1");
-ini_set('display_startup_errors', "1");
-error_reporting(E_ALL);
+
 require 'View/homepage.php';
 //require 'entries.json';
 
@@ -37,12 +35,14 @@ require 'View/homepage.php';
 <h1> Our lovely clients</h1>
 <div>
     <?php
-
+if(isset($_POST)){
     foreach ($arrReverse as $object){
         echo '<hr> Date: '.$object['Date'].'<br>';
         echo 'Title: '. $object['Title'].'<br>';
         echo 'Content: '. $object['Content'].'<br>';
         echo 'Name of Guest: '. $object['Guest Name'].'<br>'.'<br><hr>';
-    } ?></div>
+    }
+}
+     ?></div>
 </body>
 </html>

@@ -1,7 +1,6 @@
 <?php
-ini_set('display_errors', "1");
-ini_set('display_startup_errors', "1");
-error_reporting(E_ALL);
+
+
 
 
 class Post{
@@ -9,8 +8,6 @@ class Post{
     Private $Title;
     Private $Content;
     Private $GuestName;
-    Private $getAll= Array();
-
 
     function __construct($Date,$Title,$Content,$GuestName)
     {
@@ -33,11 +30,5 @@ class Post{
     public function getName() {
         return $this->GuestName;
     }
-
-    /*//set info into associative array
-    public function getAllInfo(){
-      $this->getAll = [ 'Date'=>$this->Date, 'Title'=> $this->Title, 'Content'=>$this->Content, 'Guest Name'=>$this->GuestName];
-      return $this->getAll;
-    }*/
 
 }
