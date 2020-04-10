@@ -1,14 +1,12 @@
 <?php
-
-require 'Model/post.php';
 class GuestBook
 {
     private $entry;
     private $allPosts=[];
 
     function setEntry(){
-        $this->entry = new Post(htmlspecialchars($_POST['Date']),htmlspecialchars($_POST['Title']),htmlspecialchars($_POST['Content']),htmlspecialchars($_POST['GuestName']));
-        return $this->entry;
+      return  $this->entry = new Post(htmlspecialchars($_POST['Date']),htmlspecialchars($_POST['Title']),htmlspecialchars($_POST['Content']),htmlspecialchars($_POST['GuestName']));
+
     }
 
     function makeAssoc(){
@@ -34,5 +32,4 @@ class GuestBook
         file_put_contents('JSON/entries.json', json_encode($this->allPosts, JSON_PRETTY_PRINT));
         return $this->allPosts;
     }
-
 }

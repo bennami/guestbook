@@ -1,20 +1,18 @@
 <?php
 
-
-
-
 class Post{
     Private $Date;
     Private $Title;
     Private $Content;
     Private $GuestName;
-
+    
     function __construct($Date,$Title,$Content,$GuestName)
     {
             $this->Date = $Date;
             $this->Title =$Title ;
             $this->Content = $Content;
             $this->GuestName = $GuestName;
+
     }
 
     // Getters
