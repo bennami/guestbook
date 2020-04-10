@@ -1,28 +1,12 @@
-# Title: PHP Guestbook
-
-- Repository: `challenge-php-guestbook`
-- Type of Challenge: `Consolidation Challenge`
-- Duration: `1 day`
-- Team challenge : `solo`
+# PHP Guestbook challenge
 
 ## Learning objectives
 - Storing data in files
 - Converting complex constructs (array/objects) to string representation.
-- Deliver a project under a strict deadline
-
 
 ## The Mission
-It is time for our first conciliation challenge!
-Let's make a guestbook in PHP. 
+Build a guestbook using  a json to store  data instead of any database
 
-![guestbook.jpg](guestbook.jpg)
-
-Any visitor on te page can leave a message on your page that are then saved and showed (last message on top) for everybody who visits the page.
-
-### How to store the messages?
-You can store the messages in a file on your system. You can use the brother of [file_get_contents()](https://php.net/file_get_contents) for this: [file_put_contents()](https://php.net/file_put_contents) .
-
-You can either use [json_encode()](https://php.net/json_encode) or [serialize()](https://php.net/serialize) to convert your array to a string to store.
 
 ## Must-have features
 - Posts must have the following attributes:
