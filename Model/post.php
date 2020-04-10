@@ -5,7 +5,7 @@ class Post{
     Private $Title;
     Private $Content;
     Private $GuestName;
-    
+
     function __construct($Date,$Title,$Content,$GuestName)
     {
             $this->Date = $Date;
