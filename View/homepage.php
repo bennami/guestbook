@@ -38,6 +38,13 @@
             echo 'Content: '. $guest['Content'].'<br>';
             echo 'Name of Guest: '. $guest['Guest Name'].'<br>'.'<br><hr>';
         }
+    }else {
+        foreach ($entireThing as $guest) {
+            echo '<hr> Date: ' . $guest['Date'] . '<br>';
+            echo 'Title: ' . $guest['Title'] . '<br>';
+            echo 'Content: ' . $guest['Content'] . '<br>';
+            echo 'Name of Guest: ' . $guest['Guest Name'] . '<br>' . '<br><hr>';
+        }
     }
      ?></div>
 </body>
