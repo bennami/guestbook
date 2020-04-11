@@ -1,5 +1,7 @@
 # PHP Guestbook challenge
 
+[leave me an entry on the guestbook!](https://guestbookphp.herokuapp.com/)
+
 ## Learning objectives
 - Storing data in files
 - Converting complex constructs (array/objects) to string representation.
