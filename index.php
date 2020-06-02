@@ -1,6 +1,6 @@
 <?php
-require 'Model/Post.php';
-require 'Model/guestbook.php';
+require_once ('Model/post.php');
+require_once ('Model/guestbook.php');
 
 require 'Controller/homepageController.php';
 
